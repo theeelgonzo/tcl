@@ -1,9 +1,18 @@
 /* Thus begins the style rules*/
 /*See below for font*/
 
-
 /*Here begins general site styling*/
-.tclLogo{
-    background: rgba(211,211,211,0.3);
-    color: #000;
+.tclLogo {
+    background: rgb(239, 239, 236);
+    background: linear-gradient(
+        90deg,
+        rgba(239, 239, 236, 0.9878326330532213) 19%,
+        rgba(215, 164, 46, 1) 57%,
+        rgba(224, 106, 53, 1) 100%
+    );
+}
+
+.navTable {
+    display: flex;
+    justify-content: space-around;
 }
