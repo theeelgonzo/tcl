@@ -22,6 +22,29 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'FanwoodText';
+    src: url('fanwood_text-webfont.eot') format('embedded-opentype'),
+        url('fanwood_text-webfont.svg') format('svg'),
+        url('fanwood_text-webfont.ttf') format('truetype'),
+        url('fanwood_text-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('Quicksand-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
 h1 {
     font-family: 'KnewaveOutlineRegular';
     font-size: 3em;
@@ -29,4 +52,14 @@ h1 {
 h2 {
     font-family: 'KnewaveRegular';
     font-size: 2em;
+}
+
+h3 {
+    font-family: 'Quicksand-Bold';
+    font-size: 1.5em;
+    /*font-feature-settings: 'smcp';*/
+}
+
+* {
+    font-family: 'Quicksand-Regular';
 }
