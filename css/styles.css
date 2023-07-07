@@ -16,3 +16,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+}
