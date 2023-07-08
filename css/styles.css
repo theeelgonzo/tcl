@@ -54,3 +54,15 @@ a:link {
     margin: 2em auto;
     /*padding: 1em 1em;*/
 }
+
+/*This is styling for booking page*/
+.blurbBook {
+    background: rgba(112, 112, 112, 0.2);
+    margin: 2em auto;
+    text-align: center;
+    border: 1px black;
+    border-radius: 1em;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+    max-width: fit-content;
+    padding: 2em 2em;
+}
