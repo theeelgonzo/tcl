@@ -66,3 +66,7 @@ a:link {
     max-width: fit-content;
     padding: 2em 2em;
 }
+
+.empty {
+    height: 4em;
+}
