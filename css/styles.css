@@ -21,11 +21,10 @@ a:link {
     text-decoration: none;
 }
 
-/*footer {
+.pbdssBook, .pbdssAbout, .pbdssTestm {
     position: fixed;
     bottom: 0;
-    right: 5%;
-}*/
+}
 
 .blurb {
     background: rgba(112, 112, 112, 0.2);
