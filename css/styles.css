@@ -20,17 +20,7 @@
 
 .bannerWrapper {
     display: flex;
-    justify-content: space-around;
-}
-.banner {
-    margin-left: 10%;
-    margin-right: 10%;
-    flex: 1;
-    background-image: url("images/ban.jpg");
-    min-height: 15em;
-    min-width: 60em;
-    max-width: 100%;
-    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 a:link {
